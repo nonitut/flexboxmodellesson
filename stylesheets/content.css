@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+  font-family: "CarlaSansLight";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+
+.container{
+    display: flex;
+}
+
+.blokk{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blokend{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blokcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: darkkhaki;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.zagolowok{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
